@@ -26,7 +26,7 @@ int main() {
 			// run a loop from 1 to 'k'
 			for (int i = 1; i <= k; i++) {
 				if (!achieve[i]) {
-					// then, if the place is not yet achieve, then increment 'v', which means it will be achieved
+					// then, if the place is not yet achieved, then increment 'v', which means it will be achieved
 					v++;
 				}
 			}
