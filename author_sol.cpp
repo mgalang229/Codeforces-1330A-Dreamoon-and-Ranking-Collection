@@ -31,7 +31,7 @@ int main() {
 				}
 			}
 			if (v <= x) {
-				// if 'v' is less than or equal to 'x', then store this number because this is the maximum place that we can achieve with proper sequence
+				// if 'v' is less than or equal to 'x', then store 'k' because this is the maximum place that we can achieve with proper sequence
 				// it also means that we have created a continuous sequence from 1 to a certain 'k' from participating 'x' more rated contests
 				res = k;
 				// break the loop as well
