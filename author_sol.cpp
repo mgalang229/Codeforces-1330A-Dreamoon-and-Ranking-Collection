@@ -10,7 +10,7 @@ int main() {
 	while (tt--) {
 		int n, x;
 		cin >> n >> x;
-		// create 'achieve' boolean vector to mark the places that were achieved and set all values to false
+		// create 'achieve' boolean vector to mark the places that were achieved and set all values to false (initially)
 		vector<int> achieve(201, false);
 		for (int i = 1; i <= n; i++) {
 			int ranking;
